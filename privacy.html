@@ -1,82 +1,67 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SleepMind — Gizlilik Politikası</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d0b1a; color: #E8E0F0; line-height: 1.7; }
-  .nav { padding: 16px 24px; border-bottom: 1px solid rgba(255,255,255,0.05); }
-  .nav a { color: #7B68EE; text-decoration: none; font-size: 14px; }
-  .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
-  h1 { font-size: 28px; color: #F5F0FF; margin-bottom: 8px; }
-  .date { color: rgba(232,213,183,0.5); font-size: 14px; margin-bottom: 32px; }
-  h2 { font-size: 18px; color: #E8D5B7; margin-top: 28px; margin-bottom: 12px; }
-  p { color: rgba(232,224,240,0.7); margin-bottom: 14px; font-size: 15px; }
-  ul { padding-left: 20px; margin-bottom: 14px; }
-  li { color: rgba(232,224,240,0.7); margin-bottom: 8px; font-size: 15px; }
-  strong { color: #E8E0F0; }
-  .highlight { background: rgba(123,104,238,0.08); border-left: 3px solid #7B68EE; padding: 14px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
-  .highlight p { margin-bottom: 0; }
-  a { color: #7B68EE; }
-  .footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.05); color: rgba(232,224,240,0.3); font-size: 13px; text-align: center; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - SleepMind</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0918; color: #E8E0F0; line-height: 1.7; padding: 20px; max-width: 700px; margin: 0 auto; }
+        h1 { color: #E8D5B7; font-size: 24px; margin-bottom: 8px; }
+        h2 { color: #E8D5B7; font-size: 18px; margin-top: 28px; margin-bottom: 8px; }
+        p, li { font-size: 14px; margin-bottom: 10px; color: rgba(232,224,240,0.8); }
+        ul { padding-left: 20px; }
+        .date { font-size: 12px; color: rgba(232,224,240,0.4); margin-bottom: 24px; }
+        a { color: #7B68EE; }
+    </style>
 </head>
 <body>
-<div class="nav"><a href="index.html">← SleepMind Ana Sayfa</a></div>
-<div class="container">
-  <h1>🌙 Gizlilik Politikası</h1>
-  <p class="date">Son güncelleme: Mart 2026</p>
+    <h1>Gizlilik Politikası</h1>
+    <p class="date">Son güncelleme: 1 Nisan 2026</p>
 
-  <div class="highlight">
-    <p>SleepMind, kullanıcılarının gizliliğine saygı duyar. Verilerinizi satmıyor, üçüncü taraflarla paylaşmıyor ve minimum düzeyde topluyoruz.</p>
-  </div>
+    <h2>1. Toplanan Veriler</h2>
+    <p>SleepMind aşağıdaki verileri toplar ve işler:</p>
+    <ul>
+        <li><strong>Uyku Verileri:</strong> Yatış saati, kalkış saati, uyku kalitesi değerlendirmesi. Bu veriler yalnızca cihazınızda (yerel depolama) saklanır.</li>
+        <li><strong>Kullanıcı Tercihleri:</strong> Onboarding quiz cevapları, bildirim ayarları, namaz vakti tercihleri. Yalnızca cihazınızda saklanır.</li>
+        <li><strong>AI Rüya Analizi (PRO):</strong> Rüya metinleri analiz için sunucuya gönderilir, analiz sonrası saklanmaz.</li>
+    </ul>
 
-  <h2>1. Toplanan Veriler</h2>
-  <ul>
-    <li><strong>Uyku Verileri:</strong> Yatış/kalkış saatleri, uyku skoru, subjektif kalite değerlendirmesi. Cihazınızda yerel olarak saklanır.</li>
-    <li><strong>Quiz Yanıtları:</strong> Onboarding sırasında verdiğiniz yanıtlar. Kişiselleştirme amacıyla kullanılır.</li>
-    <li><strong>Rüya Metinleri (PRO):</strong> AI Rüya Analizi kullanıldığında rüya metinleri analiz için Anthropic API'ye gönderilir.</li>
-    <li><strong>Tercihler:</strong> Namaz alarmı, şehir seçimi, bildirim tercihleri.</li>
-  </ul>
+    <h2>2. Verilerin Kullanımı</h2>
+    <ul>
+        <li>Uyku skorunuzu hesaplamak ve kişisel öneriler sunmak</li>
+        <li>Uyku trendlerinizi ve istatistiklerinizi göstermek</li>
+        <li>AI destekli rüya analizi sağlamak (PRO)</li>
+        <li>Uygulama deneyimini iyileştirmek</li>
+    </ul>
 
-  <h2>2. Verilerin Kullanımı</h2>
-  <p>Veriler yalnızca şu amaçlarla kullanılır:</p>
-  <ul>
-    <li>Uyku skorunuzu hesaplamak ve kişisel öneriler sunmak</li>
-    <li>İstatistik ve trend analizleri göstermek</li>
-    <li>AI Rüya Analizi sonuçları üretmek</li>
-    <li>Namaz vakitlerini göstermek</li>
-  </ul>
+    <h2>3. Veri Paylaşımı</h2>
+    <p>Kişisel verilerinizi üçüncü taraflarla satmıyor veya paylaşmıyoruz. Verileriniz yalnızca aşağıdaki durumlarda işlenir:</p>
+    <ul>
+        <li><strong>Supabase:</strong> AI Rüya Analizi için rüya metinleri işlenir (PRO özellik).</li>
+        <li><strong>Aladhan API:</strong> Namaz vakitleri için şehir bilgisi gönderilir (kişisel veri içermez).</li>
+    </ul>
 
-  <h2>3. Veri Saklama</h2>
-  <p>Tüm veriler <strong>cihazınızda yerel olarak</strong> saklanır. Sunucularımızda kişisel veri tutulmaz.</p>
-  <p>AI Rüya Analizi metinleri Anthropic'in API'sine gönderilir. Anthropic, API verilerini model eğitiminde kullanmaz.</p>
+    <h2>4. Veri Saklama</h2>
+    <p>Uyku verileri ve tercihler yalnızca cihazınızda (AsyncStorage) saklanır. Uygulamayı sildiğinizde tüm yerel veriler kalıcı olarak silinir. Sunucu tarafında kalıcı kişisel veri saklanmaz.</p>
 
-  <h2>4. Üçüncü Taraf Hizmetler</h2>
-  <ul>
-    <li><strong>Anthropic (Claude API):</strong> Rüya analizi. <a href="https://www.anthropic.com/privacy">Gizlilik Politikası</a></li>
-    <li><strong>Aladhan API:</strong> Namaz vakitleri. Yalnızca şehir adı gönderilir.</li>
-    <li><strong>RevenueCat:</strong> Abonelik yönetimi. <a href="https://www.revenuecat.com/privacy">Gizlilik Politikası</a></li>
-  </ul>
+    <h2>5. Güvenlik</h2>
+    <p>Verilerinizin güvenliğini sağlamak için endüstri standartı önlemler alıyoruz. Ancak internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir.</p>
 
-  <h2>5. Veri Güvenliği</h2>
-  <p>API iletişimleri HTTPS üzerinden şifrelenmiş olarak gerçekleştirilir.</p>
+    <h2>6. Çocukların Gizliliği</h2>
+    <p>Uygulamamız 13 yaşın altındaki çocuklara yönelik değildir. Bilerek 13 yaşın altındaki çocuklardan kişisel veri toplamıyoruz.</p>
 
-  <h2>6. Çocukların Gizliliği</h2>
-  <p>SleepMind 13 yaşın altındaki çocuklara yönelik değildir.</p>
+    <h2>7. Haklarınız</h2>
+    <ul>
+        <li>Verilerinize erişim talep edebilirsiniz.</li>
+        <li>Verilerinizin silinmesini isteyebilirsiniz (uygulamayı silmek yeterlidir).</li>
+        <li>Bildirimleri istediğiniz zaman kapatabilirsiniz.</li>
+    </ul>
 
-  <h2>7. Haklarınız</h2>
-  <ul>
-    <li>Uygulama ayarlarından tüm verilerinizi silebilirsiniz</li>
-    <li>Uygulamayı kaldırarak tüm yerel verileri temizleyebilirsiniz</li>
-  </ul>
+    <h2>8. Değişiklikler</h2>
+    <p>Bu politikayı güncelleme hakkımız saklıdır. Önemli değişiklikler uygulama içinden bildirilir.</p>
 
-  <h2>8. İletişim</h2>
-  <p>Sorularınız için: <a href="mailto:melihagraz@gmail.com">melihagraz@gmail.com</a></p>
-
-  <div class="footer">© 2026 SleepMind. Tüm hakları saklıdır.</div>
-</div>
+    <h2>9. İletişim</h2>
+    <p>Gizlilik ile ilgili sorularınız için: <a href="mailto:melih_agraz@brown.edu">melih_agraz@brown.edu</a></p>
 </body>
 </html>
