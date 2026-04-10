@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "SleepMind",
+    "slug": "sleepmind",
+    "version": "2.7.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1332"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.melihagraz.sleepmind",
+      "buildNumber": "11",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Gece horlama tespiti ve uyku ses analizi için mikrofon erişimi gereklidir.",
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1a1332"
+      },
+      "package": "com.melihagraz.sleepmind",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-audio"
+    ],
+    "owner": "melihagraz3",
+    "extra": {
+      "eas": {
+        "projectId": "16f5f7b4-297a-48a6-92c4-d2ea7246ec92"
+      }
+    }
+  }
+}

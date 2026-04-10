@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /d/uygulamalar/sleepmind/app/\\\\\\(tabs\\\\\\)/)",
+      "Bash(grep -r \"supabase\\\\|API\\\\|endpoint\\\\|url\" /d/uygulamalar/sleepmind/*.tsx /d/uygulamalar/sleepmind/*.ts)"
+    ]
+  }
+}
